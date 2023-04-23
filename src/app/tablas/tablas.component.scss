@@ -1,0 +1,19 @@
+.btn {
+    margin: 15px;
+}
+
+.tabla{
+    display: flex;
+    margin-top: 5px;
+    button{
+        margin: 0;
+    }
+    span{
+        width: 10%;
+    }
+    input{
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 80%;
+    }
+}

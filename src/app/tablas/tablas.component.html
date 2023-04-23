@@ -1,0 +1,75 @@
+<div class="container">
+    <button class="btn btn-primary" (click)="tabla(2)">TABLA DEL 2</button>
+    <button class="btn btn-primary" (click)="tabla(3)">TABLA DEL 3</button>
+    <button class="btn btn-primary" (click)="tabla(4)">TABLA DEL 4</button>
+    <button class="btn btn-primary" (click)="tabla(5)">TABLA DEL 5</button>
+    <button class="btn btn-primary" (click)="tabla(6)">TABLA DEL 6</button>
+    <button class="btn btn-primary" (click)="tabla(7)">TABLA DEL 7</button>
+    <button class="btn btn-primary" (click)="tabla(8)">TABLA DEL 8</button>
+    <button class="btn btn-primary" (click)="tabla(9)">TABLA DEL 9</button>
+    <button class="btn btn-primary" (click)="tabla(10)">TABLA DEL 10</button>
+</div>
+
+<div class="container">
+
+    <div class="tabla">
+        <span>{{current}} x 2 = </span>
+        <input type="number" class="form-control" [(ngModel)]="valor2">
+        <button class="btn btn-primary" (click)="ok(current, 2, valor2 )">OK</button>
+    </div>
+
+    <div class="tabla">
+        <span>{{current}} x 3 = </span>
+        <input type="number" class="form-control" [(ngModel)]="valor3">
+        <button class="btn btn-primary" (click)="ok(current, 3, valor3)">OK</button>
+    </div>
+
+    <div class="tabla">
+        <span>{{current}} x 4 = </span>
+        <input type="number" class="form-control" [(ngModel)]="valor4">
+        <button class="btn btn-primary" (click)="ok(current, 4, valor4)">OK</button>
+
+    </div>
+
+    <div class="tabla">
+        <span>{{current}} x 5 = </span>
+        <input type="number" class="form-control" [(ngModel)]="valor5">
+        <button class="btn btn-primary" (click)="ok(current, 5, valor5)">OK</button>
+
+    </div>
+
+    <div class="tabla">
+        <span>{{current}} x 6 = </span>
+        <input type="number" class="form-control" [(ngModel)]="valor6">
+        <button class="btn btn-primary" (click)="ok(current, 6, valor6)">OK</button>
+
+    </div>
+
+    <div class="tabla">
+        <span>{{current}} x 7 = </span>
+        <input type="number" class="form-control" [(ngModel)]="valor7">
+        <button class="btn btn-primary" (click)="ok(current, 7, valor7)">OK</button>
+
+    </div>
+
+    <div class="tabla">
+        <span>{{current}} x 8 = </span>
+        <input type="number" class="form-control" [(ngModel)]="valor8">
+        <button class="btn btn-primary" (click)="ok(current, 8, valor8)">OK</button>
+
+    </div>
+
+    <div class="tabla">
+        <span>{{current}} x 9 = </span>
+        <input type="number" class="form-control" [(ngModel)]="valor9">
+        <button class="btn btn-primary" (click)="ok(current, 9, valor9)">OK</button>
+
+    </div>
+
+    <div class="tabla">
+        <span>{{current}} x 10 = </span>
+        <input type="number" class="form-control" [(ngModel)]="valor10">
+        <button class="btn btn-primary" (click)="ok(current, 10, valor10)">OK</button>
+    </div>
+
+</div>
